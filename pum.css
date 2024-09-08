@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3d838a !important;
+}
+
+h2 {
+    color: #000000; 
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#resetBtn {
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resetBtn:hover {
+    background-color: #d32f2f; 
+}
