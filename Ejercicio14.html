@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio14</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -11,16 +12,42 @@
 
 
     <!-- Contenedor de las cartas -->
-    <div id="game-board">
-        <div class="carta" data-image="1">1</div>
-        <div class="carta" data-image="2">2</div>
-        <div class="carta" data-image="3">3</div>
-        <div class="carta" data-image="4">4</div>
-        <div class="carta" data-image="1">1</div>
-        <div class="carta" data-image="2">2</div>
-        <div class="carta" data-image="3">3</div>
-        <div class="carta" data-image="4">4</div>
+    <div class="memory-game">
+        <div class="card" data-framework="a">
+            <img class="front-face" src="fondo.jpg" alt="A">
+            <img class="back-face" src="imagen1.jpg" alt="Back">
+        </div>
+        <div class="card" data-framework="a">
+            <img class="front-face" src="fondo.jpg" alt="A">
+            <img class="back-face" src="imagen1.jpg" alt="Back">
+        </div>
+        <div class="card" data-framework="b">
+            <img class="front-face" src="fondo.jpg" alt="B">
+            <img class="back-face" src="imagen2.jpg" alt="Back">
+        </div>
+        <div class="card" data-framework="b">
+            <img class="front-face" src="fondo.jpg" alt="B">
+            <img class="back-face" src="imagen2.jpg" alt="Back">
+        </div>
+        <div class="card" data-framework="c">
+            <img class="front-face" src="fondo.jpg" alt="C">
+            <img class="back-face" src="imagen3.jpg" alt="Back">
+        </div>
+        <div class="card" data-framework="c">
+            <img class="front-face" src="fondo.jpg" alt="C">
+            <img class="back-face" src="imagen3.jpg" alt="Back">
+        </div>
+        <div class="card" data-framework="d">
+            <img class="front-face" src="fondo.jpg" alt="D">
+            <img class="back-face" src="imagen4.jpg" alt="Back">
+        </div>
+        <div class="card" data-framework="d">
+            <img class="front-face" src="fondo.jpg" alt="D">
+            <img class="back-face" src="imagen4.jpg" alt="Back">
+        </div>
     </div>
+    <button id="resetBtn"> Reiniciar </button>
 
+    <script src="script.js"></script>
 </body>
 </html>
